@@ -27,8 +27,8 @@ To get this agent running, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone https://github.com/Ayush-2001-Dhanraj/codingAgent.git
+    cd codingAgent
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -59,6 +59,10 @@ python main.py "your coding request here"
 
 ### Examples
 
+*   **Fix bugs in a Python script:**
+    ```bash
+    python main.py "Hey my calculator is broken '3 + 7 * 2' should give 17 as a result but it is giving 20. Can you fix the app?"
+    ```
 *   **List files in the current directory:**
     ```bash
     python main.py "List all files in the current directory."
